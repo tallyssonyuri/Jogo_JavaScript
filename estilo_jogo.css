@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    background-color: whitesmoke;
+}
+
+
+#canvas {
+    border: 2px solid black;
+}
+.jogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    font-size: 20pt;
+    background-color: rgb(172, 4, 4);
+    border-radius: 10px;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.itens{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.itens:hover{
+    background-color: rgb(22, 22, 122);
+}
+
+.itens:link{
+    color: white;
+}
+
+.itens:visited{
+    color: white;
+}
